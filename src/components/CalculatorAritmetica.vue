@@ -9,7 +9,7 @@
     </select>
     <input v-model="num2" type="number" placeholder="Número 2" @input="calculate">
     <div class="resultado">
-      Resultado: {{ result }}
+      Resultado: <span>{{ result }}</span>
     </div>
   </div>
 </template>
@@ -54,9 +54,37 @@ export default {
   justify-content: center;
   text-align: center;
   font-size: 42px;
+  padding: 3%;
 }
+
+input{
+  width: 25%;
+  font-weight: 800;
+  border: 2px solid hotpink;
+}
+
+select{
+  margin: 10px;
+  color: hotpink;
+  border: none;
+}
+
+input:focus, input:focus{
+  outline: none;
+}
+
 .resultado{
-  margin-top: 15px;
+  margin: 15px;
   display: block;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+  display: block;
+  margin: auto;
+  width: 100px;
+  border: 3px solid hotpink;
+  border-radius: 50px;
 }
 </style>
