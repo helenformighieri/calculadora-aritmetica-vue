@@ -1,24 +1,45 @@
-# calculadora-vue
+# 🧮 Calculadora Aritmética (Vue.js)
 
-## Project setup
-```
-npm install
-```
+Aplicação web desenvolvida com **Vue.js** para realizar operações aritméticas básicas de forma simples e responsiva.  
+Foi criada com o objetivo de praticar a estruturação de componentes, reatividade e interação com formulários no Vue.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> 💡 Projeto criado para treinar os fundamentos do Vue.js e reforçar a lógica por trás de operações matemáticas simples.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+---
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 🔗 Acesse o projeto
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Ver página ao vivo](https://helenformighieri.github.io/calculadora-aritmetica-vue/)
+
+---
+
+## ✅ Funcionalidades
+
+- Realiza operações de:
+  - Adição
+  - Subtração
+  - Multiplicação
+  - Divisão
+- Interface responsiva
+- Validação de campos e mensagens de erro
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- [Vue.js](https://vuejs.org/)
+
+---
+
+## 📦 Como rodar o projeto localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/helenformighieri/calculadora-aritmetica-vue.git
+
+# Acesse a pasta do projeto
+cd calculadora-aritmetica-vue
+
+# Abra o arquivo index.html (CTRL + O) no navegador ou use Live Server no VS Code
